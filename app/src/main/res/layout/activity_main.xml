@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="text to speech"
+    android:gravity="center"
+    android:layout_marginTop="30dp"
+    android:id="@+id/Texttospeech">
+
+
+</EditText>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="click hare"
+        android:id="@+id/speechbutton"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp">
+
+    </Button>
+</LinearLayout>
+
